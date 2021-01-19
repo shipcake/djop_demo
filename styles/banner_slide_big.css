@@ -1,0 +1,51 @@
+.button__bar_topslide {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    padding: 13px 0 5px 0;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute !important;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    /* bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    position: relative;
+  }
+  
+  .button__bar_topslide li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 3px;
+  }
+  
+  .button__bar_topslide li button {
+    border: none;
+    background: rgb(255, 255, 255);
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+  }
+  
+  .button__bar_topslide li.slick-active button {
+    background-color: #c0ca67;
+    transition: all 0.5s;
+    width: 25px;
+    border-radius: 10px;
+  }
+  
+  .button__bar_topslide li button:hover {
+    /* background-color: rgba(53, 53, 48, 0.548); */
+    background-color:  rgb(255, 255, 255, 0.5);
+  }
+  .button__bar_topslide li button:focus {
+    outline: 0;
+  }
